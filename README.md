@@ -1,2 +1,3 @@
 # python-challenge
-http://www.pythonchallenge.com/
+
+All of these challenges are implemented in python3.
