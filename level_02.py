@@ -1,7 +1,7 @@
 def main():
     """
-    Challenge 02: Find hidden message in source
-    URL: http://www.pythonchallenge.com/pc/def/ocr.html
+    Challenge 02: Find hidden message in source code
+    http://www.pythonchallenge.com/pc/def/ocr.html
     """
     data = open("data/level_02.txt").read()
 

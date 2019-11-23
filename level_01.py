@@ -1,7 +1,7 @@
 def main():
     """
     Challenge 01: Translate message
-    URL: http://www.pythonchallenge.com/pc/def/map.html
+    http://www.pythonchallenge.com/pc/def/map.html
     """
     # Copy purple message from page.
     message = open("data/level_01.txt").read()
