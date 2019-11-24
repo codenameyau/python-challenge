@@ -1,6 +1,6 @@
 # python-challenge
 
-All of these challenges are implemented in python3.
+Run these scripts python scripts from the same directory as this README.md
 
 ### Setup
 ```
