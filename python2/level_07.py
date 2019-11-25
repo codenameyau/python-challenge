@@ -1,6 +1,7 @@
 import requests
 import re
 from PIL import Image
+from StringIO import StringIO
 
 def main():
     """

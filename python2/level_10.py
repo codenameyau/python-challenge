@@ -1,17 +1,7 @@
-"""
-Python Challenge Levels 6-10
-Pylint Score: 9.77
-Username: huge
-Password: file
-"""
-from PIL import Image, ImageDraw
-import zipfile, re, requests
-
-
-def level_10():
+def main():
     """
     Challenge 10: Look-and-say number sequence
-    URL: http://www.pythonchallenge.com/pc/return/bull.html
+    http://www.pythonchallenge.com/pc/return/bull.html
     Seq: 1, 11, 21, 1211, 111221, 312211, ...
     """
     array = ['1']
@@ -27,4 +17,8 @@ def level_10():
                 count = 1
             current = j
         array[i+1] += str(count)+current
-    print len(array[30])
+    print(len(array[30]))
+
+
+if __name__ == '__main__':
+    main()
